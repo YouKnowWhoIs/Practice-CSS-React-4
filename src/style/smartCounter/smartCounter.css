@@ -1,0 +1,43 @@
+#smartCounter {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.conteinerCounter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.conteinerCounter button {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+}
+.conteinerCounter button:hover {
+  background-color: #4f4f4f;
+}
+
+.conteinerCounter p {
+  font-size: 30px;
+}
+
+.conteinerBtn button {
+  padding: 10px 20px;
+  font-size: larger;
+  border: none;
+  border-radius: 6px;
+}
+.conteinerBtn button:hover {
+  background-color: #4f4f4f;
+}
+
+.showText {
+  font-size: larger;
+}
