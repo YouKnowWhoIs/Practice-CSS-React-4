@@ -1,6 +1,7 @@
 import Filter from "./components/Filter/Filter";
 import Modal from "./components/Modal/Modal";
 import SmartCounter from "./components/SmartCounter/SmartCounter";
+import ToDo from "./components/ToDo/ToDo";
 import UserCard from "./components/UserCard/UserCard";
 import "./style/app/App.css";
 
@@ -12,6 +13,7 @@ function App() {
       <SmartCounter />
       <Filter />
       <Modal />
+      <ToDo />
     </>
   );
 }

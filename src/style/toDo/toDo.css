@@ -1,0 +1,64 @@
+#toDo {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.addControler {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.addControler input {
+  width: 500px;
+  height: 40px;
+  padding: 5px 5px 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: larger;
+}
+
+.addControler button {
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  font-size: larger;
+}
+.addControler button:hover {
+  background-color: #4f4f4f;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list li {
+  list-style: none;
+  padding: 15px;
+  border: 3px solid #4f4f4f;
+  border-radius: 8px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list li p {
+  word-break: break-all;
+}
+
+.list li button {
+  font-size: large;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 6px;
+}
+.list li button:hover {
+  background-color: rgb(182, 61, 61);
+}
