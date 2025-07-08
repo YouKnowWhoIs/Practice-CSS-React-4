@@ -3,6 +3,7 @@ import Modal from "./components/Modal/Modal";
 import SmartCounter from "./components/SmartCounter/SmartCounter";
 import ToDo from "./components/ToDo/ToDo";
 import UserCard from "./components/UserCard/UserCard";
+import Validate from "./components/Validate/Validate";
 import "./style/app/App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Filter />
       <Modal />
       <ToDo />
+      <Validate />
     </>
   );
 }

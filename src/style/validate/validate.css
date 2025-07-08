@@ -1,0 +1,46 @@
+#validate {
+  margin-bottom: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+#validate input {
+  width: 300px;
+  height: 30px;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 5px 5px 10px;
+}
+
+#validate button {
+  width: 150px;
+  height: 40px;
+  font-size: larger;
+  border: none;
+  border-radius: 8px;
+}
+#validate button:hover {
+  background-color: #4f4f4f;
+}
+
+.conteinerValidBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.errorValid {
+  color: red;
+  font-size: large;
+}
+
+.successful {
+  color: greenyellow;
+  font-size: large;
+}
